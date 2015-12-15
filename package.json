@@ -15,5 +15,11 @@
     "startdev": "sass --watch style.scss:public/style.css & nodemon server.js"
   },
   "author": "nick",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "run-sequence": "^1.1.5"
+  }
 }
