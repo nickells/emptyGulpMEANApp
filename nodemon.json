@@ -1,0 +1,5 @@
+{
+  "events": {
+    "restart": "browserify -t require-globify requires.js -o public/bundle.js"
+  }
+}

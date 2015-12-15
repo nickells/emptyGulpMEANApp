@@ -1,3 +1,4 @@
-app.controller('MainCtrl', function($scope){
+angular.module('Website')
+.controller('MainCtrl', function($scope){
   $scope.greeting = "Hello"
 })
